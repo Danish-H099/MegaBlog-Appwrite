@@ -1,4 +1,4 @@
-import config from "../config";
+import config from "../config/config";
 import { Client, Account, ID } from "appwrite";
 
 // We create this class to prevent vendor lock-in. If we ever decide to switch from Appwrite to another service, we can simply replace this class with another one that has the same methods.
