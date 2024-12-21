@@ -1,14 +1,14 @@
 import React from 'react'
 import Header from './header/Header'
 import Footer from './footer/Footer'
+import Container from './container/Container';
+import Logo from './Logo'; 
+import LogoutBtn from './header/LogoutBtn';
 
-function Index() {
-    return (
-        <div>
-            <Header />
-            <Footer />
-        </div>
-    )
+export{
+    Header,
+    Footer, 
+    Container,
+    Logo,
+    LogoutBtn
 }
-
-export default Index
